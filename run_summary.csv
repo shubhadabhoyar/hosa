@@ -1,0 +1,25 @@
+part,metric,value
+Part 1,data source,LIVE
+Part 1,variants analysed,663
+Part 1,overall ROC-AUC,0.9196
+Part 1,overall PR-AUC,0.9803
+Part 1,Brier score,0.1573
+Part 1,trivial-baseline AUC,0.9487
+Part 1,value added by the ML model,-0.0291
+Part 1,leakage gap (pre vs post cutoff),-0.0804
+Part 1,ancestry-skew beta on correctness,-0.5129
+Part 1,permutation p for that beta,0.185
+Part 2,data source,SIMULATED
+Part 2,isolates analysed,"6,000"
+Part 2,mean leakage gap (random vs cluster),+0.0548
+Part 2,mean advantage over rules baseline,-0.0059
+Part 2,known biology recovered (top-3 slots),11/12
+Part 2,unexplained-resistance isolates,264
+Part 3,ODE solves in sweep,"1,500"
+Part 3,default lysis at 60 min,0.511
+Part 3,best surrogate,Neural net (MLP)
+Part 3,surrogate R^2,0.9983
+Part 3,surrogate MAE,0.0103
+Part 3,speedup over the solver,"2,135x"
+Part 3,lowest viable dose found,0.0480 nM
+Part 3,ODE-verified error at that design,0.0166

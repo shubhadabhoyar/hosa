@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+_to_delete/
+*.BACKUP-*.ipynb
+.DS_Store
+.env
